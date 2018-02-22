@@ -1,3 +1,9 @@
+/* 
+prgram name - "Counting Sort"
+coded by - Mr.ari 
+date - 17-02-2018
+*/
+
 #include<stdio.h>
 #include<conio.h>
 
