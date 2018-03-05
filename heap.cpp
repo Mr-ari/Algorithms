@@ -129,14 +129,16 @@ int main(void){
 	h.initialMinHeap(10);
 	h.insertKey(3);
     h.insertKey(2);
-    h.deleteKey(1);
     h.insertKey(15);
     h.insertKey(5);
-    h.insertKey(4);
-    h.insertKey(45);
+    h.insertKey(8);
+    h.insertKey(10);
+
+	cout << h.extractHeap() << " ";
     cout << h.extractHeap() << " ";
-    cout << h.getMin() << " ";
-    h.decreaseKey(2, 1);
-    cout << h.getMin();
-    return 0;
+    cout << h.extractHeap() << " ";
+    cout << h.extractHeap() << " ";
+    cout << h.extractHeap() << " ";
+    cout << h.extractHeap() << " ";
+	return 0;
 }
